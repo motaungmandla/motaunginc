@@ -1063,7 +1063,16 @@ ul.social_icon li a:hover {
      color: #37139a;
 }
 
+.social_icon li a i {
+  font-size: 24px;
+  color: #fff; /* or your preferred color */
+  transition: 0.3s;
+}
 
+.social_icon li a:hover i {
+  color: #007bff; /* or your brand color */
+  transform: scale(1.1);
+}
 /** end footer **/
 
 
